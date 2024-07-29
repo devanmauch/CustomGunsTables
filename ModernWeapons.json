@@ -1,5 +1,421 @@
 [
 	{
+		"Name": "bayonet_ak47",
+		"Gun":
+		{
+			"GunName": "bayonet_ak47",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 200,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Bayonet_AK47/icon_bayonet_ak47.icon_bayonet_ak47'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 100,
+			"ArmourDamage": 100,
+			"ArmourPenetration": 100,
+			"HelmetDamage": 100,
+			"HelmetBleed": 100,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Bayonet_AK47/Bayonet_AK47.Bayonet_AK47_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "bayonet_ak47",
+			"LootMeshSoftObjectPath": "/UGC3269978/Bayonet_AK47/SK_Bayonet_AK47.SK_Bayonet_AK47"
+		}
+	},
+	{
+		"Name": "supp_m110",
+		"Gun":
+		{
+			"GunName": "supp_m110",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Suppressor_M110/icon_supp_m110.icon_supp_m110'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Suppressor_M110/Suppressor_M110.Suppressor_M110_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "supp_m110",
+			"LootMeshSoftObjectPath": "/UGC3269978/Suppressor_M110/SM_Suppressor_M110.SM_Suppressor_M110"
+		}
+	},
+	{
+		"Name": "supp_m24sws",
+		"Gun":
+		{
+			"GunName": "supp_m24sws",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Suppressor_M24SWS/icon_supp_m24sws.icon_supp_m24sws'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Suppressor_M24SWS/Suppressor_M24SWS.Suppressor_M24SWS_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "supp_m24sws",
+			"LootMeshSoftObjectPath": "/UGC3269978/Suppressor_M24SWS/SM_Suppressor_M24SWS.SM_Suppressor_M24SWS"
+		}
+	},
+	{
+		"Name": "supp_pbs1",
+		"Gun":
+		{
+			"GunName": "supp_pbs1",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Suppressor_PBS1/icon_supp_pbs1.icon_supp_pbs1'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Suppressor_PBS1/Suppressor_PBS1.Suppressor_PBS1_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "supp_pbs1",
+			"LootMeshSoftObjectPath": "/UGC3269978/Suppressor_PBS1/SM_Suppressor_PBS1.SM_Suppressor_PBS1"
+		}
+	},
+	{
+		"Name": "supp_pbs4",
+		"Gun":
+		{
+			"GunName": "supp_pbs4",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Suppressor_PBS4/icon_supp_pbs4.icon_supp_pbs4'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Suppressor_PBS4/Suppressor_PBS4.Suppressor_PBS4_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "supp_pbs4",
+			"LootMeshSoftObjectPath": "/UGC3269978/Suppressor_PBS4/SM_Suppressor_PBS4.SM_Suppressor_PBS4"
+		}
+	},
+	{
+		"Name": "supp_socom",
+		"Gun":
+		{
+			"GunName": "supp_socom",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Suppressor_SOCOM/icon_supp_socom.icon_supp_socom'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Suppressor_SOCOM/Suppressor_SOCOM.Suppressor_SOCOM_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "supp_socom",
+			"LootMeshSoftObjectPath": "/UGC3269978/Suppressor_SOCOM/SM_Suppressor_SOCOM.SM_Suppressor_SOCOM"
+		}
+	},
+	{
+		"Name": "supp_sv98",
+		"Gun":
+		{
+			"GunName": "supp_sv98",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Suppressor_SV98/icon_supp_sv98.icon_supp_sv98'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Suppressor_SV98/Suppressor_SV98.Suppressor_SV98_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "supp_sv98",
+			"LootMeshSoftObjectPath": "/UGC3269978/Suppressor_SV98/SM_Suppressor_SV98.SM_Suppressor_SV98"
+		}
+	},
+	{
+		"Name": "grip_vg_kac",
+		"Gun":
+		{
+			"GunName": "grip_vg_kac",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Grip_VG_KAC/icon_vg_kac.icon_vg_kac'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Grip_VG_KAC/Grip_VG_KAC.Grip_VG_KAC_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "grip_vg_kac",
+			"LootMeshSoftObjectPath": "/UGC3269978/Grip_VG_KAC/SM_VG_KAC.SM_VG_KAC"
+		}
+	},
+	{
+		"Name": "grip_vg_mod3",
+		"Gun":
+		{
+			"GunName": "grip_vg_mod3",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Grip_VG_MOD3/icon_vg_mod3.icon_vg_mod3'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Grip_VG_MOD3/Grip_VG_MOD3.Grip_VG_MOD3_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "grip_vg_mod3",
+			"LootMeshSoftObjectPath": "/UGC3269978/Grip_VG_MOD3/SM_VG_MOD3.SM_VG_MOD3"
+		}
+	},
+	{
+		"Name": "mnade_gp25",
+		"Gun":
+		{
+			"GunName": "mnade_gp25",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 1500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/GP25/icon_mnade_vog25.icon_mnade_vog25'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/GP25/Accessory_GP25_Nade.Accessory_GP25_Nade_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "mnade_gp25",
+			"LootMeshSoftObjectPath": "/UGC3269978/Shared/Meshes/SM_VOG25.SM_VOG25"
+		}
+	},
+	{
+		"Name": "mnade_m203",
+		"Gun":
+		{
+			"GunName": "mnade_m203",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 1500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/M203/icon_nadem203.icon_nadem203'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/M203/Accessory_M203_Nade.Accessory_M203_Nade_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "mnade_m203",
+			"LootMeshSoftObjectPath": "/UGC3269978/Shared/Meshes/SM_40MM.SM_40MM"
+		}
+	},
+	{
+		"Name": "msmoke_gp25",
+		"Gun":
+		{
+			"GunName": "msmoke_gp25",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 600,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/GP25/icon_msmoke_vog25.icon_msmoke_vog25'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/GP25/Accessory_GP25_Smoke.Accessory_GP25_Smoke_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "msmoke_gp25",
+			"LootMeshSoftObjectPath": "/UGC3269978/Shared/Meshes/SM_VOG25_Smoke.SM_VOG25_Smoke"
+		}
+	},
+	{
+		"Name": "msmoke_m203",
+		"Gun":
+		{
+			"GunName": "msmoke_m203",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 600,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/M203/icon_smokem203.icon_smokem203'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/M203/Accessory_M203_Smoke.Accessory_M203_Smoke_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "msmoke_m203",
+			"LootMeshSoftObjectPath": "/UGC3269978/Shared/Meshes/SM_40MM_Smoke.SM_40MM_Smoke"
+		}
+	},
+	{
 		"Name": "ak47_cm",
 		"Gun":
 		{
@@ -28,7 +444,7 @@
 		"LootMesh":
 		{
 			"ItemName": "ak47_cm",
-			"LootMeshSoftObjectPath": "/UGC3269978/AK47/SK_AK47.SK_AK47"
+			"LootMeshSoftObjectPath": "/UGC3269978/AK47/SK_AK47_NoGP25.SK_AK47_NoGP25"
 		}
 	},
 	{
@@ -60,7 +476,7 @@
 		"LootMesh":
 		{
 			"ItemName": "ak47gp25_cm",
-			"LootMeshSoftObjectPath": "/UGC3269978/AK47/SK_AK47_GP25.SK_AK47_GP25"
+			"LootMeshSoftObjectPath": "/UGC3269978/AK47/SK_AK47.SK_AK47"
 		}
 	},
 	{
@@ -75,7 +491,7 @@
 				"BuyMenuCategory": "Rifle",
 				"TeamId": -1,
 				"Cost": 2500,
-				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/AK47/icon_ak47cm.icon_ak47cm'"
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/AK74M/icon_ak74m.icon_ak74m'"
 			},
 			"KillBonus": 300,
 			"BaseDamage": 25,
@@ -92,7 +508,7 @@
 		"LootMesh":
 		{
 			"ItemName": "ak74m",
-			"LootMeshSoftObjectPath": "/UGC3269978/AK74M/SK_AK74M.SK_AK74M"
+			"LootMeshSoftObjectPath": "/UGC3269978/AK74M/SK_AK74M_NoGP25.SK_AK74M_NoGP25"
 		}
 	},
 	{
@@ -107,7 +523,7 @@
 				"BuyMenuCategory": "Rifle",
 				"TeamId": -1,
 				"Cost": 2500,
-				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/AK47/icon_ak47cm.icon_ak47cm'"
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/AK74M/icon_ak74mgp25.icon_ak74mgp25'"
 			},
 			"KillBonus": 300,
 			"BaseDamage": 25,
@@ -160,6 +576,38 @@
 		}
 	},
 	{
+		"Name": "asval",
+		"Gun":
+		{
+			"GunName": "asval",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Rifle",
+				"TeamId": -1,
+				"Cost": 2500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/ASVAL/icon_asval.icon_asval'"
+			},
+			"KillBonus": 200,
+			"BaseDamage": 20,
+			"ArmourDamage": 50,
+			"ArmourPenetration": 50,
+			"HelmetDamage": 100,
+			"HelmetBleed": 50,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/ASVAL/Gun_ASVAL.Gun_ASVAL_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "asval",
+			"LootMeshSoftObjectPath": "/UGC3269978/ASVAL/SK_ASVAL.SK_ASVAL"
+		}
+	},
+	{
 		"Name": "m110",
 		"Gun":
 		{
@@ -203,7 +651,7 @@
 				"BuyMenuCategory": "Rifle",
 				"TeamId": -1,
 				"Cost": 3500,
-				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/M110/icon_m110.icon_m110'"
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/M110/icon_m110_tan.icon_m110_tan'"
 			},
 			"KillBonus": 100,
 			"BaseDamage": 35,
@@ -220,7 +668,7 @@
 		"LootMesh":
 		{
 			"ItemName": "m110_tan",
-			"LootMeshSoftObjectPath": "/UGC3269978/M110/SK_M110.SK_M110"
+			"LootMeshSoftObjectPath": "/UGC3269978/M110/SK_M110_Tan.SK_M110_Tan"
 		}
 	},
 	{
@@ -235,7 +683,7 @@
 				"BuyMenuCategory": "Rifle",
 				"TeamId": -1,
 				"Cost": 2500,
-				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/M16A4/icon_m16a4.icon_m16a4'"
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/M16A3/icon_m16a3.icon_m16a3'"
 			},
 			"KillBonus": 300,
 			"BaseDamage": 20,
@@ -252,7 +700,7 @@
 		"LootMesh":
 		{
 			"ItemName": "m16a3",
-			"LootMeshSoftObjectPath": "/UGC3269978/M16A4/SK_M16A4M203.SK_M16A4M203"
+			"LootMeshSoftObjectPath": "/UGC3269978/M16A3/SK_M16A3_NoM203.SK_M16A3_NoM203"
 		}
 	},
 	{
@@ -267,7 +715,7 @@
 				"BuyMenuCategory": "Rifle",
 				"TeamId": -1,
 				"Cost": 3200,
-				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/M16A4/icon_m16a4m203.icon_m16a4m203'"
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/M16A3/icon_m16a3m203.icon_m16a3m203'"
 			},
 			"KillBonus": 300,
 			"BaseDamage": 20,
@@ -284,7 +732,7 @@
 		"LootMesh":
 		{
 			"ItemName": "m16a3m203",
-			"LootMeshSoftObjectPath": "/UGC3269978/M16A4/SK_M16A4M203.SK_M16A4M203"
+			"LootMeshSoftObjectPath": "/UGC3269978/M16A3/SK_M16A3.SK_M16A3"
 		}
 	},
 	{
@@ -316,7 +764,7 @@
 		"LootMesh":
 		{
 			"ItemName": "m16a4",
-			"LootMeshSoftObjectPath": "/UGC3269978/M16A4/SK_M16A4M203.SK_M16A4M203"
+			"LootMeshSoftObjectPath": "/UGC3269978/M16A4/SK_M16A4_NoM203.SK_M16A4_NoM203"
 		}
 	},
 	{
@@ -348,7 +796,7 @@
 		"LootMesh":
 		{
 			"ItemName": "m16a4m203",
-			"LootMeshSoftObjectPath": "/UGC3269978/M16A4/SK_M16A4M203.SK_M16A4M203"
+			"LootMeshSoftObjectPath": "/UGC3269978/M16A4/SK_M16A4.SK_M16A4"
 		}
 	},
 	{
@@ -363,7 +811,7 @@
 				"BuyMenuCategory": "Pistol",
 				"TeamId": -1,
 				"Cost": 250,
-				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/M9A1/icon_m9a1.icon_m9a1'"
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/M17/icon_m17.icon_m17'"
 			},
 			"KillBonus": 400,
 			"BaseDamage": 20,
@@ -388,7 +836,7 @@
 		"Gun":
 		{
 			"GunName": "m24sws",
-			"MagazineCount": 3,
+			"MagazineCount": 30,
 			"Cost": 1500,
 			"BuyMenuDetails":
 			{
@@ -412,6 +860,38 @@
 		"LootMesh":
 		{
 			"ItemName": "m24sws",
+			"LootMeshSoftObjectPath": "/UGC3269978/M24SWS/SK_M24SWS.SK_M24SWS"
+		}
+	},
+	{
+		"Name": "m24sws_desert",
+		"Gun":
+		{
+			"GunName": "m24sws_desert",
+			"MagazineCount": 30,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Rifle",
+				"TeamId": -1,
+				"Cost": 1800,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/M24SWS/icon_m24sws.icon_m24sws'"
+			},
+			"KillBonus": 500,
+			"BaseDamage": 70,
+			"ArmourDamage": 60,
+			"ArmourPenetration": 100,
+			"HelmetDamage": 100,
+			"HelmetBleed": 100,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/M24SWS/Gun_M24SWS_DESERT.Gun_M24SWS_DESERT_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "m24sws_desert",
 			"LootMeshSoftObjectPath": "/UGC3269978/M24SWS/SK_M24SWS.SK_M24SWS"
 		}
 	},
@@ -444,7 +924,7 @@
 		"LootMesh":
 		{
 			"ItemName": "m4a1",
-			"LootMeshSoftObjectPath": "/UGC3269978/M4A1/SK_M4A1.SK_M4A1"
+			"LootMeshSoftObjectPath": "/UGC3269978/M4A1/SK_M4A1_NoM203.SK_M4A1_NoM203"
 		}
 	},
 	{
@@ -544,38 +1024,6 @@
 		}
 	},
 	{
-		"Name": "sks_cm",
-		"Gun":
-		{
-			"GunName": "sks_cm",
-			"MagazineCount": 3,
-			"Cost": 1500,
-			"BuyMenuDetails":
-			{
-				"BuyMenuCategory": "Rifle",
-				"TeamId": -1,
-				"Cost": 2500,
-				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/SKS/icon_skscm.icon_skscm'"
-			},
-			"KillBonus": 100,
-			"BaseDamage": 35,
-			"ArmourDamage": 60,
-			"ArmourPenetration": 100,
-			"HelmetDamage": 100,
-			"HelmetBleed": 100,
-			"Penetration": 100,
-			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/SKS/Gun_SKS.Gun_SKS_C'",
-			"FalloffModifier": 1,
-			"MinFalloffDist": 500,
-			"MaxFalloffDist": 4000
-		},
-		"LootMesh":
-		{
-			"ItemName": "sks_cm",
-			"LootMeshSoftObjectPath": "/UGC3269978/SKS/SK_SKS.SK_SKS"
-		}
-	},
-	{
 		"Name": "sv98",
 		"Gun":
 		{
@@ -636,7 +1084,7 @@
 		"LootMesh":
 		{
 			"ItemName": "svd",
-			"LootMeshSoftObjectPath": "/UGC3269978/SVD/SK_SVD.SK_SVD"
+			"LootMeshSoftObjectPath": "/UGC3269978/SVD/SK_SVDWOOD.SK_SVDWOOD"
 		}
 	},
 	{
@@ -651,7 +1099,7 @@
 				"BuyMenuCategory": "Rifle",
 				"TeamId": -1,
 				"Cost": 3400,
-				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/SVD/icon_svd.icon_svd'"
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/SVD/icon_svdm.icon_svdm'"
 			},
 			"KillBonus": 100,
 			"BaseDamage": 35,
@@ -668,7 +1116,711 @@
 		"LootMesh":
 		{
 			"ItemName": "svdm",
-			"LootMeshSoftObjectPath": "/UGC3269978/SVD/SK_SVD.SK_SVD"
+			"LootMeshSoftObjectPath": "/UGC3269978/SVD/SK_SVDM.SK_SVDM"
+		}
+	},
+	{
+		"Name": "vss",
+		"Gun":
+		{
+			"GunName": "vss",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Rifle",
+				"TeamId": -1,
+				"Cost": 2200,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/VSS/icon_vss.icon_vss'"
+			},
+			"KillBonus": 200,
+			"BaseDamage": 20,
+			"ArmourDamage": 50,
+			"ArmourPenetration": 50,
+			"HelmetDamage": 100,
+			"HelmetBleed": 50,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/VSS/Gun_VSS.Gun_VSS_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "vss",
+			"LootMeshSoftObjectPath": "/UGC3269978/VSS/SK_VSS.SK_VSS"
+		}
+	},
+	{
+		"Name": "scope_1p63",
+		"Gun":
+		{
+			"GunName": "scope_1p63",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_1P63/icon_1p63.icon_1p63'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_1P63/Scope_1P63.Scope_1P63_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_1p63",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_1P63/SM_Scope_1P63.SM_Scope_1P63"
+		}
+	},
+	{
+		"Name": "scope_1p69",
+		"Gun":
+		{
+			"GunName": "scope_1p69",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_1P69/icon_1p69.icon_1p69'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_1P69/Scope_1P69.Scope_1P69_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_1p69",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_1P69/SM_Scope_1P69.SM_Scope_1P69"
+		}
+	},
+	{
+		"Name": "scope_1p69_alt",
+		"Gun":
+		{
+			"GunName": "scope_1p69_alt",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_1P69/icon_1p69_alt.icon_1p69_alt'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_1P69/Scope_1P69_ALT.Scope_1P69_ALT_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_1p69_alt",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_1P69/SM_Scope_1P69_ALT.SM_Scope_1P69_ALT"
+		}
+	},
+	{
+		"Name": "scope_1p78",
+		"Gun":
+		{
+			"GunName": "scope_1p78",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_1P78/icon_1p78.icon_1p78'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_1P78/Scope_1P78.Scope_1P78_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_1p78",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_1P78/SM_1P78_Picatinny.SM_1P78_Picatinny"
+		}
+	},
+	{
+		"Name": "scope_compm4",
+		"Gun":
+		{
+			"GunName": "scope_compm4",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_CompM4/icon_compm4.icon_compm4'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_CompM4/Scope_CompM4.Scope_CompM4_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_compm4",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_CompM4/SM_Scope_CompM4.SM_Scope_CompM4"
+		}
+	},
+	{
+		"Name": "scope_elcanspecter",
+		"Gun":
+		{
+			"GunName": "scope_elcanspecter",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_ElcanSpecter/icon_elcanspecter.icon_elcanspecter'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_ElcanSpecter/Scope_ElcanSpecter.Scope_ElcanSpecter_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_elcanspecter",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_ElcanSpecter/SM_Scope_ElcanSpecter.SM_Scope_ElcanSpecter"
+		}
+	},
+	{
+		"Name": "scope_kobra",
+		"Gun":
+		{
+			"GunName": "scope_kobra",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_Kobra/icon_kobra.icon_kobra'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_Kobra/Scope_Kobra.Scope_Kobra_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_kobra",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_Kobra/SM_Scope_Kobra.SM_Scope_Kobra"
+		}
+	},
+	{
+		"Name": "scope_leupoldmk4",
+		"Gun":
+		{
+			"GunName": "scope_leupoldmk4",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_LeupoldMk4/icon_leupoldmk4.icon_leupoldmk4'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_LeupoldMk4/Scope_LeupoldMk4.Scope_LeupoldMk4_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_leupoldmk4",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_LeupoldMk4/SM_Scope_LeupoldMk4.SM_Scope_LeupoldMk4"
+		}
+	},
+	{
+		"Name": "scope_m145",
+		"Gun":
+		{
+			"GunName": "scope_m145",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_M145/icon_m145.icon_m145'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_M145/Scope_M145.Scope_M145_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_m145",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_M145/SM_Scope_M145.SM_Scope_M145"
+		}
+	},
+	{
+		"Name": "scope_m150",
+		"Gun":
+		{
+			"GunName": "scope_m150",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_M150/icon_m150.icon_m150'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_M150/Scope_M150_V2.Scope_M150_V2_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_m150",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_M150/SM_M150_Scope_V2.SM_M150_Scope_V2"
+		}
+	},
+	{
+		"Name": "scope_m150_mountless",
+		"Gun":
+		{
+			"GunName": "scope_m150_mountless",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 350,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_M150/icon_m150_mtls.icon_m150_mtls'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_M150/Scope_M150_V2_Mountless.Scope_M150_V2_Mountless_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_m150_mountless",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_M150/SM_M150_Scope_V2_Mountless.SM_M150_Scope_V2_Mountless"
+		}
+	},
+	{
+		"Name": "scope_m3a",
+		"Gun":
+		{
+			"GunName": "scope_m3a",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_M3A/icon_m3a.icon_m3a'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_M3A/Scope_M3A.Scope_M3A_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_m3a",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_M3A/SM_Scope_M3A.SM_Scope_M3A"
+		}
+	},
+	{
+		"Name": "scope_microt1",
+		"Gun":
+		{
+			"GunName": "scope_microt1",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_MicroT1/icon_microt1.icon_microt1'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_MicroT1/Scope_MicroT1.Scope_MicroT1_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_microt1",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_MicroT1/SM_Scope_MicroT1.SM_Scope_MicroT1"
+		}
+	},
+	{
+		"Name": "scope_microt1_tall",
+		"Gun":
+		{
+			"GunName": "scope_microt1_tall",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_MicroT1/icon_microt1_tall.icon_microt1_tall'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_MicroT1/Scope_MicroT1_Tall.Scope_MicroT1_Tall_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_microt1_tall",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_MicroT1/SM_Scope_MicroT1_Tall.SM_Scope_MicroT1_Tall"
+		}
+	},
+	{
+		"Name": "scope_okp7",
+		"Gun":
+		{
+			"GunName": "scope_okp7",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_OKP7/icon_okp7.icon_okp7'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_OKP7/Scope_OKP7.Scope_OKP7_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_okp7",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_OKP7/SM_OKP7_V2.SM_OKP7_V2"
+		}
+	},
+	{
+		"Name": "scope_pk06",
+		"Gun":
+		{
+			"GunName": "scope_pk06",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_PK06/icon_pk06.icon_pk06'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_PK06/Scope_PK06.Scope_PK06_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_pk06",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_PK06/SM_Scope_PK06.SM_Scope_PK06"
+		}
+	},
+	{
+		"Name": "scope_pka",
+		"Gun":
+		{
+			"GunName": "scope_pka",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_PK-A/icon_pka.icon_pka'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_PK-A/Scope_PK-A.Scope_PK-A_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_pka",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_PK-A/SM_Scope_PK-A.SM_Scope_PK-A"
+		}
+	},
+	{
+		"Name": "scope_pkas",
+		"Gun":
+		{
+			"GunName": "scope_pkas",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_PKA-S/icon_pkas.icon_pkas'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_PKA-S/Scope_PKA-S.Scope_PKA-S_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_pkas",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_PK-A/SM_Scope_PKA-S.SM_Scope_PKA-S"
+		}
+	},
+	{
+		"Name": "scope_pso1",
+		"Gun":
+		{
+			"GunName": "scope_pso1",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_PSO1/icon_pso1.icon_pso1'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_PSO1/Scope_PSO1.Scope_PSO1_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_pso1",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_PSO1/SM_PSO1_Scope.SM_PSO1_Scope"
+		}
+	},
+	{
+		"Name": "scope_vudu",
+		"Gun":
+		{
+			"GunName": "scope_vudu",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269978/Scope_Vudu/icon_vudu.icon_vudu'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Scope_Vudu/Scope_Vudu.Scope_Vudu_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_vudu",
+			"LootMeshSoftObjectPath": "/UGC3269978/Scope_Vudu/SM_Scope_Vudu.SM_Scope_Vudu"
+		}
+	},
+	{
+		"Name": "flashlight_pistol",
+		"Gun":
+		{
+			"GunName": "flashlight_pistol",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "NotPurchasable",
+				"TeamId": -1,
+				"Cost": 100,
+				"BuyMenuImage": "None"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269978/Flashlight/Attachment_Flash.Attachment_Flash_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "flashlight_pistol",
+			"LootMeshSoftObjectPath": "/UGC3269978/Flashlight/SM_Flashlight_Rifle.SM_Flashlight_Rifle"
 		}
 	}
 ]
