@@ -165,12 +165,12 @@
 		{
 			"GunName": "m79",
 			"MagazineCount": 3,
-			"Cost": 1500,
+			"Cost": 4000,
 			"BuyMenuDetails":
 			{
 				"BuyMenuCategory": "Gear",
 				"TeamId": -1,
-				"Cost": 700,
+				"Cost": 4000,
 				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3270138/M79/icon_m79.icon_m79'"
 			},
 			"KillBonus": 100,
